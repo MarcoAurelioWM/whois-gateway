@@ -30,6 +30,7 @@ TOOLS = {
     'GlobalContribs': lambda x: 'https://tools.wmflabs.org/guc/index.php?user=%s&amp;blocks=true' % x,
     'ProxyChecker': lambda x: 'https://ipcheck.toolforge.org/index.php?ip=%s' % x,
     'Geolocation': lambda x: 'https://whatismyipaddress.com/ip/%s' % x,
+    'Bullseye': lambda x: 'https://bullseye.toolforge.org/ip/%s' % x,
 }
 
 geolite_file = '/data/project/'+PROJECT+'/GeoLite2-City_20201013/GeoLite2-City.mmdb'
